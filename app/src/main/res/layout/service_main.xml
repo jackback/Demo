@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/startServiceBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="启动服务"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/stopServiceBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="停止服务"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/bindServiceBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="启动绑定服务 (conn)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/unbindServiceBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="解绑服务 (conn)"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/bindServiceBtn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="启动绑定服务2 (conn2)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/unbindServiceBtn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="解绑服务2 (conn2)"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/serviceListBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="打印所有Running Service"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        />
+</LinearLayout>

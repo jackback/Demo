@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sysctrl last source service list -->
+
+<last_source>
+	<source name="Radio">
+		<level name="CORE_LV">
+			<service name="iauto.media.mediaapp"/>
+			<service name="iauto.system.cardataapp"/>
+		</level>
+
+		<level name="LAST_SOURCE_LV">
+			<service name="iauto.media.bluetoothapp"/>
+			<service name="iauto.system.deviceapp"/>
+			<service name="iauto.camera.rvcapp"/>
+			<service name="iauto.system.iovapp"/>
+		</level>
+
+		<level name="HOME_UI_LV">
+			<service name="iauto.media.ipodapp"/>
+			<service name="iauto.media.radioapp"/>
+			<service name="iauto.media.auxapp"/>
+			<service name="iauto.system.usbapp"/>
+		</level>
+
+		<level name="OTHERS_LV">
+			<service name="iauto.system.carmodeapp"/>
+			<service name="iauto.system.updateapp"/>
+			<service name="iauto.media.favlistapp"/>
+			<service name="iauto.voice.voicerecogapp"/>
+			<service name="iauto.system.meterapp"/>
+			<service name="iauto.system.dmclientapp"/>
+			<service name="iauto.system.settingapp"/>
+			<!--   <service name="iauto.media.beepapp"/> -->
+
+			<service name="iauto.uiapp.systemview"/>
+			<service name="iauto.uiapp.home"/>
+
+			<service name="iauto.uiapp.av"/>
+
+			<!--   <service name="iauto.uiapp.vr"/> -->
+			<!--   <service name="iauto.uiapp.diag"/> -->
+			<!--   <service name="iauto.uiapp.phone"/> -->
+		</level>
+	</source>
+
+	<source name="USB">
+		<level name="CORE_LV">
+			<service name="iauto.media.mediaapp"/>
+			<service name="iauto.system.cardataapp"/>
+		</level>
+
+		<level name="LAST_SOURCE_LV">
+			<service name="iauto.media.bluetoothapp"/>
+			<service name="iauto.system.deviceapp"/>
+			<service name="iauto.camera.rvcapp"/>
+			<service name="iauto.system.iovapp"/>
+		</level>
+
+		<level name="HOME_UI_LV">
+			<service name="iauto.media.ipodapp"/>
+			<service name="iauto.media.radioapp"/>
+			<service name="iauto.media.auxapp"/>
+			<service name="iauto.system.usbapp"/>
+		</level>
+
+		<level name="OTHERS_LV">
+			<service name="iauto.system.carmodeapp"/>
+			<service name="iauto.system.updateapp"/>
+			<service name="iauto.media.favlistapp"/>
+			<service name="iauto.voice.voicerecogapp"/>
+			<service name="iauto.system.meterapp"/>
+			<service name="iauto.system.dmclientapp"/>
+			<service name="iauto.system.settingapp"/>
+			<!--   <service name="iauto.media.beepapp"/> -->
+
+			<service name="iauto.uiapp.systemview"/>
+			<service name="iauto.uiapp.home"/>
+
+			<service name="iauto.uiapp.av"/>
+
+			<!--   <service name="iauto.uiapp.vr"/> -->
+			<!--   <service name="iauto.uiapp.diag"/> -->
+			<!--   <service name="iauto.uiapp.phone"/> -->
+		</level>
+	</source>
+</last_source>
+
